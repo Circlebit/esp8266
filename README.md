@@ -16,7 +16,7 @@ I ordered two different boards from China in September 2018, both referred to as
 ### LoL1n NodeMcu V3
 - __Price:__ € 2,19
 - __USB-Serial converter:__ CH340
-- This board is two units wider than the other ones. As can be seen in the picture fit on a common breadboard but there is no space left to connect something to the pins.
+- This board is two units wider than the other ones. It fits on a common breadboard but there is no space to connect something to the pins comfortably.
 
     ![](images/LoL1n_NodeMcuV3.jpg)
 
@@ -30,3 +30,8 @@ The price is way higher than the others though.
 
 ## Development Environment
 The Arduino IDE works fine but I'm using Visual Studio Code with Arduino plugin among others. It works real nice so far. I just had to add "AppData\\Local\\Arduino15\\packages\\" to includePath in c_cpp_properties.json so the headers are found.
+
+
+## Useful bits of information
+### Wifi settings on the ESP8266 are saved to flash memory
+Once you've connected to a network the SSID and passphrase are written to flash and will automatically be used in the future. In this case it seems to be enough to call `WiFi.begin()` instead of `WiFi.begin(ssid, password)` to connect to network. This saves you from having your password in the Code. (This behaviour can be changed with [persistent](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/generic-class.html#persistent)).
