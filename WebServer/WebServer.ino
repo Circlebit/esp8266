@@ -1,4 +1,5 @@
 // based on Code by Magesh Jayakumar
+// Check out his Instructable on NodeMcu:
 // https://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/
 
 #include <ESP8266WiFi.h>
