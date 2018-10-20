@@ -6,7 +6,7 @@
                 "C:\\Users\\Moshbit\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
                 "C:\\Users\\Moshbit\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.2\\**",
                 "${workspaceFolder}/**",
-                "C:/Users/Moshbit/AppData/Local/Arduino15/packages/**"
+                "C:\\Users\\Moshbit\\AppData\\Local\\Arduino15\\packages\\**"
             ],
             "defines": [
                 "_DEBUG",
