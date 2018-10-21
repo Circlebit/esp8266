@@ -16,6 +16,7 @@ I ordered two different boards from China in September 2018, both referred to as
 ### LoL1n NodeMcu V3
 - __Price:__ € 2,19
 - __USB-Serial converter:__ CH340
+- __Arduino IDE Settings:__ Same as the Amica but you may have to install a driver for the C340 and adjust the COM-Port
 - This board is two units wider than the other ones. It fits on a common breadboard but there is no space to connect something to the pins comfortably.
 
     ![](images/LoL1n_NodeMcuV3.jpg)
