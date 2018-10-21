@@ -1,5 +1,17 @@
 # Experiments with ESP8266 boards
 
+## Setup for first experiments
+
+- Two NodeMCU and a small router as Access Point
+
+    ![](images/IOT-Labor.jpg) 
+    3V3 and GND of the NodeMCUs are connected so you only have to connect one USB to power both. One board has a button on a GPIO, the other one a big, red LED.
+
+    ![](images/LedOnOffViaWifi.gif) 
+
+    Turning an LED on and off in a Web Browser via Wifi.
+
+
 ## Boards
 I ordered two different boards from China in September 2018, both referred to as "NodeMcu V3" by the seller. [This article](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/#adafruit-sparkfun) has more infos on different NodeMCU boards.
 
