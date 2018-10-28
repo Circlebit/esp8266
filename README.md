@@ -11,6 +11,8 @@
 
     Turning an LED on and off in a Web Browser via Wifi.
 
+    ![](images/steckplatine.png)
+
 
 ## Boards
 I ordered two different boards from China in September 2018, both referred to as "NodeMcu V3" by the seller. [This article](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/#adafruit-sparkfun) has more infos on different NodeMCU boards.
