@@ -48,3 +48,6 @@ The Arduino IDE works fine but I'm using Visual Studio Code with Arduino plugin 
 ## Useful bits of information
 ### Wifi settings on the ESP8266 are saved to flash memory
 Once you've connected to a network the SSID and passphrase are written to flash and will automatically be used in the future. In this case it seems to be enough to call `WiFi.begin()` instead of `WiFi.begin(ssid, password)` to connect to network. This saves you from having your password in the Code. (This behaviour can be changed with [persistent](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/generic-class.html#persistent)).
+
+
+Hallo, jetzt ists nice.
